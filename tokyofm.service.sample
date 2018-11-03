@@ -1,0 +1,12 @@
+[Unit]
+Description=Tokyo FM Redirect
+After=network.target
+
+[Service]
+ExecStart=/root/src/radiko_proxy/venv/bin/python /root/src/radiko_proxy/ffmpegAutoStart.py
+User=root
+Type=simple
+#Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

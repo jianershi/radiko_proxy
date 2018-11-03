@@ -1,0 +1,3 @@
+m3u8_local_destination = "/your_web_root_directory/fm/tokyofm.m3u8"
+station = "FMT"
+MANAGED_local_folder_for_music_files = "/your_web_root_directory/fm"
